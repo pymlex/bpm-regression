@@ -8,12 +8,7 @@ This repository contains a solution for the Kaggle competition [Playground Serie
 
 ## Overview
 
-- **Task**: Regression — predict BPM for audio tracks.  
-- **Input**: Tabular features describing audio tracks.  
-- **Datasets**:
-  - **Train**: ~500k samples with `BeatsPerMinute`.  
-  - **Test**: ~100k samples without target.  
-- **Evaluation Metric**: RMSE.
+The task is a **regression** problem: predict the beats per minute (BPM) of audio tracks. Inputs are tabular features that describe each track. The training dataset contains approximately 500k samples with the BeatsPerMinute target, and the test set contains about 100,000 samples without target values. Model performance is evaluated using root mean squared error (RMSE).
 
 ## Models compared
 - Fully connected neural network (Keras) — 64 → 32 → 1.  
